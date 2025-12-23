@@ -36,8 +36,7 @@ type Props = {
 
 const props = withDefaults(defineProps<Props>(), {
   bgUrl: "/images/hero-gurman.jpg",
-  storyHref: "/about",
-  menuHref: "/menu",
+  
 })
 
 
@@ -121,6 +120,7 @@ const heroStyle = computed(() => {
   font-style: italic;
   color: rgba(255,255,255,0.55);
   font-family: var(--font-sans);
+  font-weight: 300;
 }
 
 .hero__actions {
