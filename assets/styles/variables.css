@@ -1,0 +1,14 @@
+:root {
+  /* Background Colors */
+  --bg-color-primary: #f2eee6;
+  --bg-color-secondary: #f8f6f2;
+
+  /* Accent / Primary Colors */
+  --accent-color-primary: #FFDCBE;
+  --accent-color-secondary: #305040;
+
+  /* Fonts */
+  --font-serif: 'Cormorant Garamond', serif;
+  --font-sans: 'Josefin Sans', sans-serif;
+
+}
